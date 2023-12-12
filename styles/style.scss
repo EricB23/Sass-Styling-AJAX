@@ -1,0 +1,41 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+body {
+  font-family: Arial, sans-serif;
+  color: #2cb1d2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #d63a3a;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  h1 {
+    color: $primary-color;
+  }
+
+  button {
+    background-color: $secondary-color;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+  }
+}
+
+#dataContainer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0f98bb;
+  border-radius: 3px;
+  text-align: left;
+}
